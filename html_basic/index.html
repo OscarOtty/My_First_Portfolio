@@ -3,74 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Base Index</title>
+  <title>Oscar Otty - Personal Portfolio</title>
 </head>
 <body>
   <header>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Tweets</a></li>
-    </ul>
+    <h1>Oscar Otty</h1>
+    <p>Cloud & Data Center Engineer — building resilient infrastructure and elegant software.</p>
   </header>
 
-  <main>
-    <article>
-      <h1>Welcome to My Basic Page</h1>
-      <h2>About This Page</h2>
-      <p>This is the first paragraph. It introduces the page and its purpose.</p>
-      <p>This is the second paragraph. It provides a little more context and background.</p>
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-      <h3>More Details</h3>
-      <p>This is the third paragraph. It expands on details mentioned above.</p>
-      <p>This is the fourth paragraph. It gives an example or a concluding sentence.</p>
+  <!-- First required section element -->
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Hello — I'm Oscar, a Data Center & Cloud enthusiast with experience in systems, networking, and DevOps practices. I enjoy designing reliable systems and automating repeatable tasks.</p>
+  </section>
+    <section id="projects">
+      <h2>Projects</h2>
 
-      <!-- Clickable image: clicking the image opens the target URL in a new tab -->
+      <article class="project">
+        <h3>Data Center Inventory Manager</h3>
+        <p>A small web app to track racks, servers, and network devices in a data center — includes CSV import/export and search.</p>
+        <p><a href="https://example.com/project1" target="_blank" rel="noopener noreferrer">View Project</a></p>
+      </article>
+
+      <article class="project">
+        <h3>Cloud Cost Dashboard</h3>
+        <p>A dashboard that aggregates cloud billing data and provides weekly reports and alerts for unexpected spend.</p>
+        <p><a href="https://example.com/project2" target="_blank" rel="noopener noreferrer">View Project</a></p>
+      </article>
+
+      <article class="project">
+        <h3>CI/CD Starter Kit</h3>
+        <p>A template repository with CI/CD pipeline, linting, unit tests and container build for quick project starts.</p>
+        <p><a href="https://example.com/project3" target="_blank" rel="noopener noreferrer">View Project</a></p>
+      </article>
+    </section>
+
+    <!-- About Me section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I hold a BSc in Computer & Information Systems and a diploma in Electrical & Electronic Engineering. I am AWS Certified (Cloud Practitioner) and actively learning DevOps & SRE tooling.</p>
+      <ul>
+        <li>Skills: Linux, Networking, Cloud (AWS), Docker, Git, Monitoring</li>
+        <li>Hobbies: tinkering with hardware, open-source projects, mentoring learners</li>
+      </ul>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@example.com">oscarotty99@gmail.com</a></p>
       <p>
-        <a href="https://www.alxafrica.org" target="_blank" rel="noopener noreferrer">
-          <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" style="max-width:300px;height:auto;">
-        </a>
+        <a href="https://www.linkedin.com/in/oscar-otieno-7562411a0/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+        <a href="https://github.com/OscarOtty/" target="_blank" rel="noopener noreferrer">GitHub</a>
       </p>
-
-      <table border="1">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Country</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>John</td>
-            <td>25</td>
-            <td>USA</td>
-          </tr>
-          <tr>
-            <td>Emily</td>
-            <td>28</td>
-            <td>Canada</td>
-          </tr>
-          <tr>
-            <td>Michael</td>
-            <td>32</td>
-            <td>Australia</td>
-          </tr>
-          <tr>
-            <td>Sophia</td>
-            <td>21</td>
-            <td>UK</td>
-          </tr>
-        </tbody>
-      </table>
-    </article>
-
-    <aside>
-      <p>placeholder to add comment thread later</p>
-    </aside>
-  </main>
+    </section>
+  </article>
 
   <footer>
-    <p>Made by Oscar Otty - <a href="https://github.com/oscar-otty" target="_blank">here</a>.</p>
+    <p>&copy; 2025 Oscar Otty</p>
   </footer>
 </body>
 </html>
